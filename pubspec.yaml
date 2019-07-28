@@ -1,7 +1,8 @@
 name: lazy_load_refresh_indicator
 description: A simple Flutter Widget which provide PullToRefresh and LoadMore functionality. 
 version: 1.0.0
-author: Tim Bierbaum
+author: Tim Bierbaum <timbierbaum991@gmail.com>
+homepage: https://github.com/tb2761/lazyloadrefreshindicator
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
