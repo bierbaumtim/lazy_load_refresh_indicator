@@ -46,7 +46,8 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
         super(key: key);
 
   @override
-  _LazyLoadRefreshIndicatorState createState() => _LazyLoadRefreshIndicatorState();
+  _LazyLoadRefreshIndicatorState createState() =>
+      _LazyLoadRefreshIndicatorState();
 }
 
 class _LazyLoadRefreshIndicatorState extends State<LazyLoadRefreshIndicator> {
@@ -78,7 +79,8 @@ class _LazyLoadRefreshIndicatorState extends State<LazyLoadRefreshIndicator> {
   bool _handleLoadMoreScroll(ScrollNotification notification) {
     if (notification is ScrollUpdateNotification) {
       if (notification.metrics.maxScrollExtent > notification.metrics.pixels &&
-          notification.metrics.maxScrollExtent - notification.metrics.pixels <= widget.scrollOffset) {
+          notification.metrics.maxScrollExtent - notification.metrics.pixels <=
+              widget.scrollOffset) {
         if (!_isLoading) {
           _isLoading = true;
           widget.onEndOfPage();

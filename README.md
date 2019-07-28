@@ -14,7 +14,6 @@ depencenies:
 Add the LazyLoadRefreshIndicator to your Widget
 
 ```dart
-
 int itemCount = 20;
 bool isLoading = false;
 
