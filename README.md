@@ -1,6 +1,6 @@
 # LazyLoadRefreshIndicator
 
-A simple Flutter Widget which provide PullToRefresh and LoadMore functionality. It's based on flutters RefreshIndicator, so every change to it should not break this package.
+A simple Flutter Widget which provide PullToRefresh and LoadMore functionality based on flutters RefreshIndicator.
 
 ## How to use
 
