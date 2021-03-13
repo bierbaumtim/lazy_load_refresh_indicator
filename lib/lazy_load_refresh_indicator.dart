@@ -21,7 +21,7 @@ typedef RefreshCallback = Future<void> Function();
 ///
 /// The trigger mode is configured by [RefreshIndicator.triggerMode].
 ///
-/// When the child's [Scrollable] descendant overscrolls at the end and the 
+/// When the child's [Scrollable] descendant overscrolls at the end and the
 /// overscroll is higher than the [scrollOffset] the [onEndOfPage] callback is called.
 ///
 /// A [LazyLoadRefreshIndicator] can only be used with a vertical scroll view.
@@ -51,19 +51,19 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
   /// The distance from the child's top or bottom edge to where the refresh
   /// indicator will settle. During the drag that exposes the refresh indicator,
   /// its actual displacement may significantly exceed this value.
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final double displacement;
 
   /// The progress indicator's foreground color. The current theme's
   /// [ThemeData.accentColor] by default.
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final Color? color;
 
   /// The progress indicator's background color. The current theme's
   /// [ThemeData.canvasColor] by default.
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final Color? backgroundColor;
 
@@ -72,7 +72,7 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
   ///
   /// By default, checks whether `notification.depth == 0`. Set it to something
   /// else for more complicated layouts.
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final ScrollNotificationPredicate notificationPredicate;
 
@@ -80,19 +80,19 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
   ///
   /// This will be defaulted to [MaterialLocalizations.refreshIndicatorSemanticLabel]
   /// if it is null.
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final String? semanticsLabel;
 
   /// {@macro flutter.progress_indicator.ProgressIndicator.semanticsValue}
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final String? semanticsValue;
 
   /// Defines `strokeWidth` for `RefreshIndicator`.
   ///
   /// By default, the value of `strokeWidth` is 2.0 pixels.
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final double strokeWidth;
 
@@ -109,7 +109,7 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
   /// If this is [RefreshIndicatorTriggerMode.onEdge], only case 1 can be triggered.
   ///
   /// Defaults to [RefreshIndicatorTriggerMode.onEdge].
-  /// 
+  ///
   /// Exposed from [RefreshIndicator]
   final RefreshIndicatorTriggerMode triggerMode;
 
