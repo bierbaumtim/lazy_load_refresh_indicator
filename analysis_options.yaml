@@ -1,0 +1,19 @@
+# include: package:effective_dart/analysis_options.yaml
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    # implicit-dynamic: false
+  errors:
+    # treat missing required parameters as a warning (not a hint)
+    missing_required_param: warning
+    # treat missing returns as a warning (not a hint)
+    missing_return: warning
+    return_of_invalid_type: warning
+    argument_type_not_assignable: warning
+
+linter:
+  rules:
+    lines_longer_than_80_chars: false
+    sort_pub_dependencies: false
