@@ -56,7 +56,7 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
   final double displacement;
 
   /// The progress indicator's foreground color. The current theme's
-  /// [ThemeData.accentColor] by default.
+  /// [ThemeData.colorScheme.primary] by default.
   ///
   /// Exposed from [RefreshIndicator]
   final Color? color;
