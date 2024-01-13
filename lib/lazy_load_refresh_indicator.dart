@@ -119,7 +119,7 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
   /// The default [scrollOffset] is 100 logical pixels, the default [displacement] is 40 logical pixels
   /// and [isLoading] is false.
   const LazyLoadRefreshIndicator({
-    Key? key,
+    super.key,
     required this.child,
     required this.onEndOfPage,
     required this.onRefresh,
@@ -133,10 +133,10 @@ class LazyLoadRefreshIndicator extends StatefulWidget {
     this.semanticsValue,
     this.strokeWidth = 2.0,
     this.triggerMode = RefreshIndicatorTriggerMode.onEdge,
-  }) : super(key: key);
+  });
 
   @override
-  _LazyLoadRefreshIndicatorState createState() =>
+  State<LazyLoadRefreshIndicator> createState() =>
       _LazyLoadRefreshIndicatorState();
 }
 
@@ -185,6 +185,7 @@ class _LazyLoadRefreshIndicatorState extends State<LazyLoadRefreshIndicator> {
         }
       }
     }
+    
     return false;
   }
 }
