@@ -1,6 +1,6 @@
-library lazy_load_refresh_indicator;
+library;
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// The signature for a function that's called when the user has dragged a
 /// [LazyLoadRefreshIndicator] far enough to demonstrate that they want the app to

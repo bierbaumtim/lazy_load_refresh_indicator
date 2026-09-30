@@ -1,3 +1,7 @@
+## 3.0.0 - 30.09.2026
+* Dart 3.13
+* material_ui migration
+
 ## 2.0.0 - 13.03.2021
 * Adds null-safety
 * exposes all parameters of RefreshIndicator

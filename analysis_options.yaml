@@ -11,6 +11,8 @@ analyzer:
     missing_return: warning
     return_of_invalid_type: warning
     argument_type_not_assignable: warning
+  exclude:
+    - build/**
 
 linter:
   rules:
